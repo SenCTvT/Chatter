@@ -1,0 +1,107 @@
+#chatbox{
+   
+    background-color: #f8faca;
+    margin-top: 5vh;
+    max-width: 500px;   
+    border: 1px solid grey;
+    height: 90vh;
+    position: relative;
+    box-shadow: -14px 14px 32px -6px rgba(0,0,0,0.75);
+}
+
+
+.header{
+    margin: 2px 2px 2px 2px;
+    border-bottom: 1px solid grey;
+    height: 60px;
+}
+
+.dp{
+    margin: 2px 2px 2px 2px;
+    border: 1px solid grey;
+    height: 3em;
+    width: 3em;
+    background-repeat: no-repeat;
+    background-size: 3em;
+    border-radius: 50%;
+}
+.name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0.2em;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+h4{
+    font-size: 0.6em;
+    margin:0;
+}
+
+.outgoing{
+    margin:0;
+}
+.incoming{
+    margin:0;
+}
+.outgoingtext{
+    border:1px solid grey;
+    padding: 0.5em;
+    padding-left: 1em;
+    height: auto;
+    border-radius: 10px 0 20px 10px;
+    box-shadow: -12px 13px 11px -12px rgba(0,0,0,0.75);
+    background-color: #bcebe8;
+}
+
+.incomingtext{
+    border:1px solid grey;
+    padding: 0.5em;
+    padding-left: 1em;
+    height: auto;
+    border-radius: 0 10px 10px 20px;
+    box-shadow: -12px 13px 11px -12px rgba(0,0,0,0.75);
+    background-color: #f6ffa8;
+}
+
+
+.textBox{
+    position: absolute;
+    bottom:0;
+    height: 80px;
+    width: 100%;
+    
+}
+
+.userList{
+    margin-top: 5vh;
+    max-width: 90%;
+}
+
+.card-body {
+    margin: auto;
+}
+.card-btn{
+    width: 100%;
+    margin: auto;
+}
+
+.card-title{
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+.card{
+    width: 100%;
+}
+
+#msgArea{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position:absolute;
+    padding:5px;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    top:60px;
+    bottom: 80px;
+    margin: auto;
+    width: 95%;
+}
